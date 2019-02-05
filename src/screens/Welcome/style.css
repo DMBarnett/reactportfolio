@@ -8,3 +8,9 @@
 .headshot{
   border-radius: 50%
 }
+
+body{
+  background-image: url("../../images/stripes-light.png");
+  background-repeat: repeat; 
+  background-color: rgba(0,0,0,0.1);
+}
