@@ -1,0 +1,15 @@
+/* .container{
+  width:100%;
+  margin: 0px;
+} */
+
+.row{
+  width:100%;
+  margin-top: 20px;
+}
+
+.card-link{
+  border: thin solid #007bff;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
