@@ -31,9 +31,6 @@ class Header extends Component{
                 <NavLink href="/Portfolio">Portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Resume">Employment History</NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink href="/Contact">Contact</NavLink>
               </NavItem>
             </Nav>

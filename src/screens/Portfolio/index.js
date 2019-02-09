@@ -20,7 +20,7 @@ function Portfolio(props){
           <Col sm="6" md="3">
           <Card>
               <CardBody>
-                <CardTitle><h4>Google book tracking database</h4></CardTitle>
+                <CardTitle><h4>Google Book Search</h4></CardTitle>
                 <CardText>This was a simple project to build an app that tracks a book list for a user, and allows them to add and remove new books. It pulls from the Google books API, and links into books.google.com.  Made with React, Reactstrap, and Mongoose.</CardText>
                 <CardLink href="https://salty-forest-82379.herokuapp.com/">Website</CardLink>
                 <CardLink href="https://github.com/DMBarnett/searchgooglebooks">Github</CardLink>
@@ -53,7 +53,7 @@ function Portfolio(props){
             <Card>
               <CardBody>
                 <CardTitle><h4>Fridge 2 Table</h4></CardTitle>
-                <CardText>This was our second prject in class, it gives users recipes based on what they have in their fridge.  We had a lot of trouble initially with the many-to-many relationship in MySQL, but once understood it worked really smoothly. I handled a lot of the api calls and worked on the database calls, and spent a lot of time pair programming, which was a first, and turned out to be really helpful.  We built this before learninig React, but it would have worked wonders for how difficult some of the api calls became.</CardText>
+                <CardText>This was our second prject in class, it gives users recipes based on what they have in their fridge.  We had a lot of trouble initially with the many-to-many relationship in MySQL, but once understood it worked really smoothly. I handled a lot of the api calls and worked on the database calls, and spent a lot of time pair programming, which was a first, and turned out to be really helpful.  We built this before learning React, but it would have worked wonders for how difficult some of the api calls became.</CardText>
                 <CardLink href="https://radiant-fortress-59044.herokuapp.com/index.html">Website</CardLink>
                 <CardLink href="https://github.com/DMBarnett/project2">Github</CardLink>
               </CardBody>
