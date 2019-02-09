@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Welcome from "./screens/Welcome";
 import Portfolio from "./screens/Portfolio";
-import WorkHistory from "./screens/WorkHistory";
 import Contact from "./screens/Contact";
 import Header from "./components/Header"
 import './App.css';
