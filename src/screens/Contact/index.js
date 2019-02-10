@@ -14,7 +14,7 @@ class Contact extends Component{
   handleSubmit=e=>{
     e.preventDefault()
     const { name, email, message } = this.state;
-    
+
   }
 
   handleChange = event =>{
@@ -40,7 +40,7 @@ class Contact extends Component{
                 </FormGroup>
                 <FormGroup>
                   <Label for="message">Message:</Label>
-                  <Input type="email" id="email" onChange={this.handleChange}></Input>
+                  <Input type="message" id="email" onChange={this.handleChange}></Input>
                 </FormGroup>
 
                 <button>Submit</button>
