@@ -31,7 +31,10 @@ class Header extends Component{
                 <NavLink href="/Portfolio">Portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Contact">Contact</NavLink>
+                <NavLink href="https://github.com/DMBarnett">Github</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://www.linkedin.com/in/davidmbarnett/">LinkedIn</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
