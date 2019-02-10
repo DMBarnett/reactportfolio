@@ -2,6 +2,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
@@ -12,4 +13,19 @@ body {
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
+}
+
+.footer h4{
+  display: inline;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.footRow{
+  margin:0px;
+}
+
+.footer a{
+  text-decoration: none;
 }
