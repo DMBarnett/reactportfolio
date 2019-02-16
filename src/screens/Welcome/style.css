@@ -9,8 +9,22 @@
   border-radius: 50%
 }
 
-body{
-  background-image: url("../../images/stripes-light.png");
-  background-repeat: repeat; 
-  background-color: rgba(0,0,0,0.1);
+.skillset{
+  width: 150px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.nameplate{
+  text-align: center;
+}
+
+.portImg {
+  width:600px;;
+}
+
+#github{
+  padding-left: 0px;
 }
