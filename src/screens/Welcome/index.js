@@ -12,6 +12,8 @@ import node from "../../images/skills/nodejs.png"
 import bootst from "../../images/skills/bootstrap.png"
 import urza from "../../images/Urza.png"
 import vsc from "../../images/VSC.png"
+import gbooks from "../../images/GoogleBooks.png"
+import dogs from "../../images/doggos.png"
 import food from "../../images/F2T.png"
 import "./style.css"
 
@@ -87,14 +89,19 @@ class Welcome extends Component{
               <h1>Portfolio</h1>
             </Col>
           </Row>
+          <br />
           <Row>
             <Col xs="0" sm="1"></Col>
             <Col xs="12" sm="6" className="portfolioText">
-              <p>1: Each House shall be the Judge of the Elections, Returns and Qualifications of its own Members, and a Majority of each shall constitute a Quorum to do Business; but a smaller Number may adjourn from day to day, and may be authorized to compel the Attendance of absent Members, in such Manner, and under such Penalties as each House may provide.</p>
+              <h2>Urza's Point of Sale</h2>
+              <p>This is a point of sale system for a store that sells Magic the Gathering cards.  It draws pricing from <a href="tcgplayer.com">TCG Player</a>, and maintains a database of the stores inventory and sales history.  Also, it allows for tracking of repeat customers who generate and use store credit through winning tournements</p>
 
-              <p>2: Each House may determine the Rules of its Proceedings, punish its Members for disorderly Behaviour, and, with the Concurrence of two thirds, expel a Member.</p>
+              <p>Built using Reactstrap, a bootstrap library for React, this simple front end is utilitarian, and easy to read for those who are using it.  The backend is a MySQL database, I've used a SQL database to handle multi-row transactions, and to ensure accountability in the accounting for sales and tracking of inventory.</p>
 
-              <p>3: Each House shall keep a Journal of its Proceedings, and from time to time publish the same, excepting such Parts as may in their Judgment require Secrecy; and the Yeas and Nays of the Members of either House on any question shall, at the Desire of one fifth of those Present, be entered on the Journal.</p>
+              <p>This was the final project in class, and consisted of about a three week sprint.  We hadn't fully learned the concepts used in React, so our time was split between lectures and coding.</p>
+
+              <p>Built with MySQL, Express, React, Node.js, as well as body-parser, Sequelize ORM, bcrypt, passport, and axios.</p>
+
             </Col>
             <Col xs="0" sm="1"></Col>
             <Col xs="12" sm="4" className="portfolioImgCol">
@@ -105,19 +112,76 @@ class Welcome extends Component{
           <br />
           <br />
           <Row>
-            <Col xs="12" sm="4" className="portfolioImgCol" id="github">
+            <Col xs="12" sm="4" className="portfolioImgCol">
+              <a href="https://salty-forest-82379.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <img className="gbooksImg" src={gbooks} alt="Google Book Search"></img>
+              </a>
+            </Col>
+            <Col xs="0" sm="1"></Col>
+            <Col xs="12" sm="6" className="portfolioText">
+              <h2>Google Bookshelf</h2>
+              <p>This program allows a user to search for books, using Google's extensive Books API, and save selected books into a bookshelf.  Then, users can delete and add to their bookshelf.  I experimented with mongo and mongoose building this in preparation for the final project, but ultimately went with simple models for this and moved back to MySQL for the final project.</p>
+
+              <p>Built with Mongoose, Express, React, Node.js, as well as body-parser and axios.</p>
+            </Col>            
+            <Col xs="0" sm="1"></Col>
+          </Row>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <Row>
+            <Col xs="0" sm="1"></Col>
+            <Col xs="12" sm="6" className="portfolioText">
+              <h2>Memory Game</h2>
+              <p>This is a memory click game, that tests users memory skill using an array of pups and dogs. This was one of my earliest React apps, but it was good to get an understanding of how to break the dom into components and handle each independently.</p>
+
+              <p>Build using React</p>
+            </Col>
+            <Col xs="0" sm="1"></Col>
+            <Col xs="12" sm="4" className="portfolioImgCol">
+              <a href="https://aqueous-savannah-77755.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <img className="portImg" src={dogs} alt="Memory click game"></img>
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <br />
+          <br />
+          <Row>
+            <Col xs="12" sm="4" className="portfolioImgCol">
+              <a href="https://radiant-fortress-59044.herokuapp.com/index.html" target="_blank" rel="noopener noreferrer">
+                <img className="gbooksImg" src={food} alt="Food To Table"></img>
+              </a>
+            </Col>
+            <Col xs="0" sm="1"></Col>
+            <Col xs="12" sm="6" className="portfolioText">
+              <h2>Fridge 2 Table</h2>
+              <p>This was our second prject in class, it gives users recipes based on what they have in their fridge. We had a lot of trouble initially with the many-to-many relationship in MySQL, but once understood it worked really smoothly. I handled a lot of the api calls and worked on the database calls, and spent a lot of time pair programming, which was a first, and turned out to be really helpful. We built this before learning React, but it would have worked wonders for how difficult some of the api and database calls became.</p>
+
+              <p>Built with MySQL, Express, Sequelize ORM, Twilio, Node.js, and Handlebars.</p>
+            </Col>
+            <Col xs="0" sm="1"></Col>
+          </Row>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <Row>
+            <Col xs="0" sm="1"></Col>
+            <Col xs="12" sm="6" className="portfolioText">
+              <h2>Github</h2>
+              <p>Please peruse my github, along with the projects listed above I have several other projects I've featured on my profile.</p>
+              <p>I have experience with the MERN stack, with both NoSQL and SQL databases, and I've tinkered with Python/Django web development, and I look forward to putting these skills to use advancing your companies goals.</p>
+            </Col>
+            <Col xs="0" sm="1"></Col>
+            <Col xs="12" sm="4" className="portfolioImgCol">
               <a href="https://github.com/DMBarnett" target="_blank" rel="noopener noreferrer">
                 <img className="portImg" src={vsc} alt="Github"></img>
               </a>
             </Col>
-            <Col xs="0" sm="1"></Col>
-
-            <Col xs="12" sm="6" className="portfolioText">
-              <p>3: If, at the time fixed for the beginning of the term of the President, the President elect shall have died, the Vice President elect shall become President. If a President shall not have been chosen before the time fixed for the beginning of his term, or if the President elect shall have failed to qualify, then the Vice President elect shall act as President until a President shall have qualified; and the Congress may by law provide for the case wherein neither a President elect nor a Vice President elect shall have qualified, declaring who shall then act as President, or the manner in which one who is to act shall be selected, and such person shall act accordingly until a President or Vice President shall have qualified. </p>
-              <p>4: The Congress may by law provide for the case of the death of any of the persons from whom the House of Representatives may choose a President whenever the right of choice shall have devolved upon them, and for the case of the death of any of the persons from whom the Senate may choose a Vice President whenever the right of choice shall have devolved upon them.   </p>
-            </Col>
-            <Col xs="0" sm="1"></Col>
-
           </Row>
           <br />
           <br />
